@@ -11,6 +11,7 @@
 
 @interface EAATestObject() {
     NSNumber* _iVarNumber;
+    int _sipleInt;
 }
 
 @property (strong, nonatomic) NSNumber* privateNumber;
