@@ -31,6 +31,10 @@
     return self;
 }
 
+-(void) privateMethod {
+    NSLog(@"PRIVATE!!!");
+}
+
 -(NSString *)description {
     return [NSString stringWithFormat:@"iVarNumber = %@, privateNumber = %@, readOnlyNumber = %@", _iVarNumber, _privateNumber, _readOnlyNumber];
 }

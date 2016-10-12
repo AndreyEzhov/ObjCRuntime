@@ -24,6 +24,36 @@
     [super viewDidLoad];
     
     [self changeAllIVars];
+    
+    [self callPrivate];
+}
+
+-(void) callPrivate {
+    
+    EAATestObject* test = [[EAATestObject alloc] init];
+    
+    Class class = [EAATestObject class];
+    
+    unsigned int methodCount;
+    
+    Method *methods = class_copyMethodList(class, &methodCount);
+    
+    for (unsigned int i = 0; i < methodCount; i++) {
+        Method method = methods[i];
+        
+        SEL sel = method_getName(method);
+        
+        NSString* name = NSStringFromSelector(sel);
+                
+        if ([name isEqualToString:@"privateMethod"]) {
+            [test performSelector:sel];
+        }
+        
+        NSLog(@"method Name %@", name);
+    }
+    
+    free(methods);
+
 }
 
 -(void) changeAllIVars {
