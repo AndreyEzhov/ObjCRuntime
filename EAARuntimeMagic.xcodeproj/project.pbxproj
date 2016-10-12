@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3375AC61DAE881C00C5E69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375AC51DAE881C00C5E69D /* main.m */; };
+		F3375AC91DAE881C00C5E69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375AC81DAE881C00C5E69D /* AppDelegate.m */; };
+		F3375ACC1DAE881C00C5E69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375ACB1DAE881C00C5E69D /* ViewController.m */; };
+		F3375ACF1DAE881C00C5E69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3375ACD1DAE881C00C5E69D /* Main.storyboard */; };
+		F3375AD11DAE881C00C5E69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3375AD01DAE881C00C5E69D /* Assets.xcassets */; };
+		F3375AD41DAE881C00C5E69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3375AD21DAE881C00C5E69D /* LaunchScreen.storyboard */; };
+		F3375ADD1DAE884800C5E69D /* EAATestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375ADC1DAE884800C5E69D /* EAATestObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3375AC11DAE881C00C5E69D /* EAARuntimeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAARuntimeMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3375AC51DAE881C00C5E69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3375AC71DAE881C00C5E69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3375AC81DAE881C00C5E69D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3375ACA1DAE881C00C5E69D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3375ACB1DAE881C00C5E69D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3375ACE1DAE881C00C5E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3375AD01DAE881C00C5E69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3375AD31DAE881C00C5E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3375AD51DAE881C00C5E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3375ADB1DAE884800C5E69D /* EAATestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAATestObject.h; sourceTree = "<group>"; };
+		F3375ADC1DAE884800C5E69D /* EAATestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAATestObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3375ABE1DAE881C00C5E69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3375AB81DAE881C00C5E69D = {
+			isa = PBXGroup;
+			children = (
+				F3375AC31DAE881C00C5E69D /* EAARuntimeMagic */,
+				F3375AC21DAE881C00C5E69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3375AC21DAE881C00C5E69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3375AC11DAE881C00C5E69D /* EAARuntimeMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3375AC31DAE881C00C5E69D /* EAARuntimeMagic */ = {
+			isa = PBXGroup;
+			children = (
+				F3375AC71DAE881C00C5E69D /* AppDelegate.h */,
+				F3375AC81DAE881C00C5E69D /* AppDelegate.m */,
+				F3375ACA1DAE881C00C5E69D /* ViewController.h */,
+				F3375ACB1DAE881C00C5E69D /* ViewController.m */,
+				F3375ACD1DAE881C00C5E69D /* Main.storyboard */,
+				F3375AD01DAE881C00C5E69D /* Assets.xcassets */,
+				F3375AD21DAE881C00C5E69D /* LaunchScreen.storyboard */,
+				F3375AD51DAE881C00C5E69D /* Info.plist */,
+				F3375AC41DAE881C00C5E69D /* Supporting Files */,
+				F3375ADB1DAE884800C5E69D /* EAATestObject.h */,
+				F3375ADC1DAE884800C5E69D /* EAATestObject.m */,
+			);
+			path = EAARuntimeMagic;
+			sourceTree = "<group>";
+		};
+		F3375AC41DAE881C00C5E69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3375AC51DAE881C00C5E69D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3375AC01DAE881C00C5E69D /* EAARuntimeMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3375AD81DAE881C00C5E69D /* Build configuration list for PBXNativeTarget "EAARuntimeMagic" */;
+			buildPhases = (
+				F3375ABD1DAE881C00C5E69D /* Sources */,
+				F3375ABE1DAE881C00C5E69D /* Frameworks */,
+				F3375ABF1DAE881C00C5E69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAARuntimeMagic;
+			productName = EAARuntimeMagic;
+			productReference = F3375AC11DAE881C00C5E69D /* EAARuntimeMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3375AB91DAE881C00C5E69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = EAA;
+				TargetAttributes = {
+					F3375AC01DAE881C00C5E69D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6PJ2XVG4Y2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3375ABC1DAE881C00C5E69D /* Build configuration list for PBXProject "EAARuntimeMagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3375AB81DAE881C00C5E69D;
+			productRefGroup = F3375AC21DAE881C00C5E69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3375AC01DAE881C00C5E69D /* EAARuntimeMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3375ABF1DAE881C00C5E69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3375AD41DAE881C00C5E69D /* LaunchScreen.storyboard in Resources */,
+				F3375AD11DAE881C00C5E69D /* Assets.xcassets in Resources */,
+				F3375ACF1DAE881C00C5E69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3375ABD1DAE881C00C5E69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3375ADD1DAE884800C5E69D /* EAATestObject.m in Sources */,
+				F3375ACC1DAE881C00C5E69D /* ViewController.m in Sources */,
+				F3375AC91DAE881C00C5E69D /* AppDelegate.m in Sources */,
+				F3375AC61DAE881C00C5E69D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3375ACD1DAE881C00C5E69D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3375ACE1DAE881C00C5E69D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3375AD21DAE881C00C5E69D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3375AD31DAE881C00C5E69D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3375AD61DAE881C00C5E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3375AD71DAE881C00C5E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3375AD91DAE881C00C5E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PJ2XVG4Y2;
+				INFOPLIST_FILE = EAARuntimeMagic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EAA.EAARuntimeMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3375ADA1DAE881C00C5E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PJ2XVG4Y2;
+				INFOPLIST_FILE = EAARuntimeMagic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EAA.EAARuntimeMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3375ABC1DAE881C00C5E69D /* Build configuration list for PBXProject "EAARuntimeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3375AD61DAE881C00C5E69D /* Debug */,
+				F3375AD71DAE881C00C5E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3375AD81DAE881C00C5E69D /* Build configuration list for PBXNativeTarget "EAARuntimeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3375AD91DAE881C00C5E69D /* Debug */,
+				F3375ADA1DAE881C00C5E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3375AB91DAE881C00C5E69D /* Project object */;
+}
