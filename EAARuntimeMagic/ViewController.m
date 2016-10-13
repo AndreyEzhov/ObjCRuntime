@@ -26,7 +26,18 @@
     [self changeAllIVars];
     
     [self callPrivate];
+    
+    [self duckVoice];
 }
+
+
+-(void) duckVoice {
+    EAATestObject* test = [[EAATestObject alloc] init];
+    if ([test respondsToSelector:@selector(voice)]) {
+        [test performSelector:@selector(voice)];
+    }
+}
+
 
 -(void) callPrivate {
     

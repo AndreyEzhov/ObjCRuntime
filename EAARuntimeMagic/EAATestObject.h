@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EAADuckObject.h"
 
 @interface EAATestObject : NSObject
 
 @property (readonly, strong, nonatomic) NSNumber* readOnlyNumber;
+
+@property (readonly, strong, nonatomic) EAADuckObject* duck;
 
 @end

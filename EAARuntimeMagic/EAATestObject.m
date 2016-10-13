@@ -7,6 +7,7 @@
 //
 
 #import "EAATestObject.h"
+#import <objc/runtime.h>
 
 
 @interface EAATestObject() {
@@ -27,6 +28,8 @@
         _privateNumber = @10;
         _iVarNumber = @10;
         _readOnlyNumber = @10;
+        
+        _duck = [[EAADuckObject alloc] init];
     }
     return self;
 }
@@ -37,6 +40,30 @@
 
 -(NSString *)description {
     return [NSString stringWithFormat:@"iVarNumber = %@, privateNumber = %@, readOnlyNumber = %@", _iVarNumber, _privateNumber, _readOnlyNumber];
+}
+
+- (id)forwardingTargetForSelector:(SEL)aSelector {
+    if (class_respondsToSelector([self class], aSelector)) {
+        return self;
+    }
+    
+    if ([self.duck respondsToSelector:aSelector]) {
+        return self.duck;
+    }
+    
+    return [super forwardingTargetForSelector:aSelector];
+}
+
+- (BOOL)respondsToSelector:(SEL)aSelector {
+    if (class_respondsToSelector([self class], aSelector)) {
+        return YES;
+    }
+    
+    if ([self.duck respondsToSelector:aSelector]) {
+        return YES;
+    }
+    
+    return [super respondsToSelector:aSelector];
 }
 
 @end

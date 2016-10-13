@@ -14,6 +14,7 @@
 		F3375AD11DAE881C00C5E69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3375AD01DAE881C00C5E69D /* Assets.xcassets */; };
 		F3375AD41DAE881C00C5E69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3375AD21DAE881C00C5E69D /* LaunchScreen.storyboard */; };
 		F3375ADD1DAE884800C5E69D /* EAATestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375ADC1DAE884800C5E69D /* EAATestObject.m */; };
+		F3D3D1F31DAFD0EF002E6FB9 /* EAADuckObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3D1F21DAFD0EF002E6FB9 /* EAADuckObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F3375AD51DAE881C00C5E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3375ADB1DAE884800C5E69D /* EAATestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAATestObject.h; sourceTree = "<group>"; };
 		F3375ADC1DAE884800C5E69D /* EAATestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAATestObject.m; sourceTree = "<group>"; };
+		F3D3D1F11DAFD0EF002E6FB9 /* EAADuckObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAADuckObject.h; sourceTree = "<group>"; };
+		F3D3D1F21DAFD0EF002E6FB9 /* EAADuckObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAADuckObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				F3375AC41DAE881C00C5E69D /* Supporting Files */,
 				F3375ADB1DAE884800C5E69D /* EAATestObject.h */,
 				F3375ADC1DAE884800C5E69D /* EAATestObject.m */,
+				F3D3D1F11DAFD0EF002E6FB9 /* EAADuckObject.h */,
+				F3D3D1F21DAFD0EF002E6FB9 /* EAADuckObject.m */,
 			);
 			path = EAARuntimeMagic;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				F3375ACC1DAE881C00C5E69D /* ViewController.m in Sources */,
 				F3375AC91DAE881C00C5E69D /* AppDelegate.m in Sources */,
 				F3375AC61DAE881C00C5E69D /* main.m in Sources */,
+				F3D3D1F31DAFD0EF002E6FB9 /* EAADuckObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +326,7 @@
 				F3375ADA1DAE881C00C5E69D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
