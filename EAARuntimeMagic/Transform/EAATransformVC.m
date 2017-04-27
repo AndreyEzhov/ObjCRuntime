@@ -23,7 +23,7 @@
     view1.transform = CGAffineTransformMakeScale(0.5, 0.5);
     [self printForView:view1];
     
-    
+
     UIView* view2 = [[UIView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
     view2.backgroundColor = [UIColor blueColor];
     [self.view addSubview:view2];
@@ -35,6 +35,13 @@
     view3.backgroundColor = [UIColor blueColor];
     [self.view addSubview:view3];
     [self printForView:view3];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
+            view3.frame = CGRectMake(50, 450, 50, 50);
+            [self printForView:view3];
+        });
+    });
 
 }
 

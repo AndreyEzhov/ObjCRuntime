@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3092FB51EB1D2D10020F75E /* EAAQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3092FB41EB1D2D10020F75E /* EAAQueueViewController.m */; };
 		F3375AC61DAE881C00C5E69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375AC51DAE881C00C5E69D /* main.m */; };
 		F3375AC91DAE881C00C5E69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3375AC81DAE881C00C5E69D /* AppDelegate.m */; };
 		F3375ACF1DAE881C00C5E69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3375ACD1DAE881C00C5E69D /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3092FB31EB1D2D10020F75E /* EAAQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAQueueViewController.h; sourceTree = "<group>"; };
+		F3092FB41EB1D2D10020F75E /* EAAQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAQueueViewController.m; sourceTree = "<group>"; };
 		F3375AC11DAE881C00C5E69D /* EAARuntimeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAARuntimeMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3375AC51DAE881C00C5E69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3375AC71DAE881C00C5E69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3092FB21EB1D2900020F75E /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				F3092FB31EB1D2D10020F75E /* EAAQueueViewController.h */,
+				F3092FB41EB1D2D10020F75E /* EAAQueueViewController.m */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
 		F3375AB81DAE881C00C5E69D = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +79,7 @@
 		F3375AC31DAE881C00C5E69D /* EAARuntimeMagic */ = {
 			isa = PBXGroup;
 			children = (
+				F3092FB21EB1D2900020F75E /* Queue */,
 				F372207D1EA67C7C00875387 /* Runtime */,
 				F37220841EA67C7C00875387 /* Transform */,
 				F3375AC71DAE881C00C5E69D /* AppDelegate.h */,
@@ -182,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3092FB51EB1D2D10020F75E /* EAAQueueViewController.m in Sources */,
 				F37220861EA67C7C00875387 /* EAATestObject.m in Sources */,
 				F37220871EA67C7C00875387 /* ViewController.m in Sources */,
 				F37220851EA67C7C00875387 /* EAADuckObject.m in Sources */,
