@@ -85,7 +85,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="l6o-2R-KCW" kind="show" trigger="accessoryAction" id="3A8-K0-szN"/>
+                                            <segue destination="l6o-2R-KCW" kind="show" id="QeY-hx-xrR"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>

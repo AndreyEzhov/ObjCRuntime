@@ -6,8 +6,8 @@
 //  Copyright © 2017 EAA. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface EAAQueueViewController : ViewController
+@interface EAAQueueViewController : UIViewController
 
 @end
